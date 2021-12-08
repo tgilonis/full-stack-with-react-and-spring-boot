@@ -1,5 +1,6 @@
 package com.tgilonis.restfulwebservices.controller;
 
+import com.tgilonis.restfulwebservices.HelloWorldBean;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
