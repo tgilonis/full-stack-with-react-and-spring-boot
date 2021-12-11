@@ -1,4 +1,4 @@
-package com.tgilonis.restfulwebservices.HelloWorld;
+package com.tgilonis.restfulwebservices.helloworld;
 
 public class HelloWorldBean
 {

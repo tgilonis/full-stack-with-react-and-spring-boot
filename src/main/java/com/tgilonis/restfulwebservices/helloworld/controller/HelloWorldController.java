@@ -1,6 +1,6 @@
-package com.tgilonis.restfulwebservices.HelloWorld.controller;
+package com.tgilonis.restfulwebservices.helloworld.controller;
 
-import com.tgilonis.restfulwebservices.HelloWorld.HelloWorldBean;
+import com.tgilonis.restfulwebservices.helloworld.HelloWorldBean;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
