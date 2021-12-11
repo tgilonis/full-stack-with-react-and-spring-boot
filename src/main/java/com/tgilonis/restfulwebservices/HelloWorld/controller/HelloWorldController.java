@@ -1,6 +1,6 @@
-package com.tgilonis.restfulwebservices.controller;
+package com.tgilonis.restfulwebservices.HelloWorld.controller;
 
-import com.tgilonis.restfulwebservices.HelloWorldBean;
+import com.tgilonis.restfulwebservices.HelloWorld.HelloWorldBean;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -32,6 +32,7 @@ public class HelloWorldController
     @GetMapping(path="/hello-world-bean/path-variable/{name}")
     public HelloWorldBean helloWorldPathVariable(@PathVariable String name)
     {
+        //throw new RuntimeException("Something went wrong"); // use for testing error handling in frontend
         return new HelloWorldBean(String.format("Hello World, %s!", name));
     }
 }
