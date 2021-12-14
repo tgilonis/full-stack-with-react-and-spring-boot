@@ -10,6 +10,16 @@ import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 import java.net.URI;
 import java.util.List;
 
+/*
+    Adhere to RESTApi best practices for Response statuses
+    200 - Success
+    201 - Created
+    400 - Bad request
+    401 - Unauthorized
+    404 - Resource not found
+    500 - Server Error
+ */
+
 @RestController
 @CrossOrigin(origins = "http://localhost:4200")
 public class TodoResource
