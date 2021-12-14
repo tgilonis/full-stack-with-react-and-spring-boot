@@ -11,6 +11,11 @@ public class Todo
     private Date targetDate;
     private boolean isDone;
 
+    // need default constructor for api calls
+    protected Todo() {
+
+    }
+
     public Todo(
             long id,
             String username,
