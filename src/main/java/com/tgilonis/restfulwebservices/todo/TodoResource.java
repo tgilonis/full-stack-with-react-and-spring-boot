@@ -30,4 +30,22 @@ public class TodoResource
         }
         return ResponseEntity.notFound().build();
     }
+
+    @GetMapping(path = "/users/{username}/todos/{id}")
+    public Todo getTodo(@PathVariable String username, @PathVariable long id)
+    {
+        return todoService.findById(id);
+    }
+
+    /*@PutMapping(path = "/users/todos/{id}")
+    public ResponseEntity<Void> updateTodo(@PathVariable long id)
+    {
+        Todo todo = todoService.updateById(id);
+        if(todo!=null)
+        {
+            return ResponseEntity.noContent().build();
+        }
+        return ResponseEntity.notFound().build();
+    }*/
+
 }
