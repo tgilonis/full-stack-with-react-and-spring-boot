@@ -1,6 +1,6 @@
-package com.tgilonis.restfulwebservices.todo.services;
+package com.tgilonis.rest.webservices.restfulwebservices.todo.services;
 
-import com.tgilonis.restfulwebservices.todo.Todo;
+import com.tgilonis.rest.webservices.restfulwebservices.todo.Todo;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;

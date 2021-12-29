@@ -1,4 +1,4 @@
-package com.tgilonis.restfulwebservices.todo;
+package com.tgilonis.rest.webservices.restfulwebservices.todo;
 
 import java.util.Date;
 import java.util.Objects;

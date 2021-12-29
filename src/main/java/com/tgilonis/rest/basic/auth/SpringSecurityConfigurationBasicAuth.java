@@ -1,4 +1,4 @@
-package com.tgilonis.restfulwebservices.basic.auth;
+package com.tgilonis.rest.basic.auth;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.http.HttpMethod;

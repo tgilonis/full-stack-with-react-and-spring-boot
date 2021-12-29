@@ -1,6 +1,6 @@
-package com.tgilonis.restfulwebservices.basic.controller;
+package com.tgilonis.rest.basic.controller;
 
-import com.tgilonis.restfulwebservices.basic.AuthenticationBean;
+import com.tgilonis.rest.basic.AuthenticationBean;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -17,7 +17,5 @@ public class BasicAuthenticationController
     {
         return new AuthenticationBean("You are Authenticated!");
     }
-
-
 
 }

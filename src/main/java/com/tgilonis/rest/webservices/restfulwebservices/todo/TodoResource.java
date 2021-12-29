@@ -1,6 +1,6 @@
-package com.tgilonis.restfulwebservices.todo;
+package com.tgilonis.rest.webservices.restfulwebservices.todo;
 
-import com.tgilonis.restfulwebservices.todo.services.TodoHardCodedService;
+import com.tgilonis.rest.webservices.restfulwebservices.todo.services.TodoHardCodedService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
